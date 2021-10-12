@@ -1,0 +1,19 @@
+# BitForge [Ruby]
+domain: bf-rb.github.io
+url: https://bf-rb.github.io
+baseurl: /
+
+title: BitForge [Ruby]
+remote_theme: mmistakes/minimal-mistakes@4.24.0
+
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - Gemfile
+  - Gemfile.lock
+  - .idea/
+  - .gitignore
